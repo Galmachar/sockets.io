@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>sockets io</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<style></style>
+<body>
+        <div id="logowanie">
+                            <input id="username" type="text"/>
+                            <br/>
+                            <button id="login">login</button>
+                            <br/>
+                            <div id="zly_login"></div>
+        </div>
+    <div id="mario-chat">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <div id="users_list">
+                Users:<br/>
+            </div>
+        <input id="handle" type="text" readonly/>
+        <input id="message" type="text" placeholder="Message"/>
+        <button id="send">Send</button>
+
+    </div>
+
+
+
+    <script src="/scripts/chat.js"></script>
+    <script src="/scripts/users.js"></script>
+</body>
+</html>
